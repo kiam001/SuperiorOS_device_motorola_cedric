@@ -20,7 +20,7 @@ $(call inherit-product, device/motorola/cedric/full_cedric.mk)
 
 # Inherit some common stuff.
 $(call inherit-product, vendor/superior/config/common.mk)
-
+$(call inherit-product, vendor/superior/config/telephony.mk)
 # Boot animation
 TARGET_BOOT_ANIMATION_RES := 1080
 
